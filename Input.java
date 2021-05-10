@@ -15,6 +15,7 @@ public class Input
         String sentence="\n"+name+","+age;
         System.out.println(sentence);
         printWriter.append(sentence);
+        printWriter.close();
     }
 
 }
